@@ -42,6 +42,6 @@ MicroPythonで下記プログラムを実行するとアドレスが表示され
         print(hex(i))
   
 pico-sdkのexsamplesの中のi2c/bus_scan/bus_scan.cをビルドして実行しても  
-I2Cアドレスを調べることができます。(その場合はSDAをGP4にSCKをGP5につないでください)  
+I2Cアドレスを調べることができます。(その場合はSDAをGP4にSCLをGP5につないでください)  
   
 ![pico pinout](https://github.com/yamayamaru/yama_2_GFX_SSD1306/blob/main/img/raspberrypipicopinout.jpg)  
