@@ -1,3 +1,6 @@
+使用にはyama_2_GFXが別途必要になります。  
+<https://github.com/yamayamaru/yama_2_GFX>  
+  
 yama_2_GFX.h  
 yama_2_GFX.cpp  
 yama_2_GFX_SSD1306.h  
