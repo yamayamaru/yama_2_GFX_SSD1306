@@ -5,6 +5,8 @@ C++で書かれています。
 yama_2_GFX_SSD1306はSSD1306を搭載したOLED用のライブラリになってます。  
 使用にあたってはyama_2_GFXが必要になります。  
 <https://github.com/yamayamaru/yama_2_GFX>  
+文字表示するには別途print_GFX_SSD1306も使ってください。  
+https://github.com/yamayamaru/print_GFX_SSD1306 
   
 yama_2_GFX_SSD1306を使う場合の注意点としては  
 描画をしたら、必ず表示させたいタイミングでdisplay()メソッドを実行してください。  
