@@ -18,4 +18,4 @@ yama_2_GFX_SSD1306はAdafruit_SSD1306を元に作られています
     <https://github.com/adafruit/Adafruit_SSD1306>   
   
 ## 変更履歴
-0.3 初版公開
+0.3 2022/02/06 初版公開
