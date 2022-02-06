@@ -18,7 +18,7 @@ CMakeLists.txt
     #define SSD1306_SCL         3      // ピン番号5
   
 画像からGP2、GP3のI2CはI2C1なので  
-ソースコードの例ではSPIのポート番号は下記のようにi2c1を指定してます  
+ソースコードの例ではI2Cのポート番号は下記のようにi2c1を指定してます  
 `#define SSD1306_I2C_PORT    i2c1`
   
 SSD1306のI2Cアドレスは製品によって違います。  
@@ -30,7 +30,7 @@ MicroPythonを使って調べることができます。
 ここのサイトからMicroPythonをダウンロードしてPicoに書き込みます。  
 <https://micropython.org/download/rp2-pico/>  
   
-次にPicoのGPIO2にSSD1306のSDAをGPIO3にSCKをつないで  
+次にPicoのGPIO2(ピン番号4)にSSD1306のSDAをGPIO3(ピン番号5)にSCKをつないで  
 MicroPythonで下記プログラムを実行するとアドレスが表示されます。
   
     from machine import Pin, I2C
