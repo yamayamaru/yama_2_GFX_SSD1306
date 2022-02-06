@@ -40,8 +40,6 @@ MicroPythonで下記プログラムを実行するとアドレスが表示され
     i2c = I2C(I2C_PORT, sda=Pin(I2C_SDA), scl=Pin(I2C_SCL), freq=400000)
     for i in i2c.scan():
         print(hex(i))
-  
-pico-sdkのexsamplesの中のi2c/bus_scan/bus_scan.cをビルドして実行しても  
-I2Cアドレスを調べることができます。(その場合はSDAをGP4にSCLをGP5につないでください)  
+
   
 ![pico pinout](https://github.com/yamayamaru/yama_2_GFX_SSD1306/blob/main/img/raspberrypipicopinout.jpg)  
